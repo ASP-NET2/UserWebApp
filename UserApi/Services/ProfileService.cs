@@ -6,7 +6,7 @@ public class ProfileService
 {
     private readonly HttpClient _httpClient;
     private readonly ILogger<ProfileService> _logger;
-    private readonly string _azureFunctionUrl = "https://userprovider-manero.azurewebsites.net/api/GetAllFunction?code=u61pzl5mJXR10wTqgooxqjURMY-m2QjcI_QqdMCmdaBjAzFuN6MByw%3D%3D";
+    private readonly string _azureFunctionUrl = $"https://manerouserprovider.azurewebsites.net/api/GetAllFunction?code=CjhwMX-p044JIkqKmff7ABrsAJsk4NUtg3x_8SNXRkdOAzFuTo6Mvw%3D%3D";
 
     public ProfileService(HttpClient httpClient, ILogger<ProfileService> logger)
     {
